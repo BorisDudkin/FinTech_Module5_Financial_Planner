@@ -1,5 +1,7 @@
-* 	 (HEAD -> main) corrected simulation input and rerun the results. Updated the conclusion and README accordingly
-* 	 (origin/main, origin/HEAD) README Usage section updated
+* 	 (HEAD -> main, origin/main, origin/HEAD) images folder name capital I changed to  low case i
+* 	 added git tree - a history of commits
+* 	 corrected simulation input and rerun the results. Updated the conclusion and README accordingly
+* 	 README Usage section updated
 * 	 Financila planner conclusion added and README updated
 * 	 completed Financial Planner, added simulation images
 * 	 pie chart modified in Financial Planner
