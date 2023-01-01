@@ -1,6 +1,6 @@
 # Financial Planner
 
-### Financial Planner helps in estimating the current value of an investment portfolio, but more importantly it allows to estimate different future values of the portfolio by strategically rebalancing the portfolio's composition and the investment horizon. The tool assists you in reaching your investment objectives!
+### Financial Planner helps to calculate the current value of an investment portfolio, but more importantly it allows to estimate different future values of the portfolio by strategically rebalancing the portfolio's composition and changing the investment horizon. The tool assists you in reaching your investment objectives!
 
 ---
 
@@ -38,16 +38,16 @@ _Prerequisites_
 
 - JSON: This library puts the response (that is, the data) from an API into a human-readable format.
 
-> The Requests and JSON libraries get installed with Anaconda. To verify, in Terminal type:
+  The Requests and JSON libraries get installed with Anaconda. To verify, in Terminal type:
 
 ```python
 conda list requests
 conda list json
 ```
 
-3. Python-dotenv Library to interact with APIs. With the python-dotenv library, you can read key-value pairs from an environment file (.env) and add them as environment variables.
+3. Python-dotenv Library is used to interact with APIs. With the python-dotenv library, you can read key-value pairs from an environment file (.env) and add them as environment variables.
 
-4. Alpaca is an is an API for stock trading. With the Alpaca SDK, you can interact with the Alpaca API. Sign up for Alpaca API Key and Secret Keys at https://app.alpaca.markets/signup
+4. Alpaca is an API for stock trading. With the Alpaca SDK, you can interact with the Alpaca API. Sign up for Alpaca API Key and Secret Keys at https://app.alpaca.markets/signup
 
 ---
 
@@ -80,13 +80,13 @@ conda install -c anaconda requests
 conda install -c jmcmurray json
 ```
 
-To install the python-dotenv Library in Terminal run:
+To install the python-dotenv Library, in Terminal run:
 
 ```python
 pip install python-dotenv
 ```
 
-To Install the Alpaca SDK in Terminal run:
+To Install the Alpaca SDK, in Terminal run:
 
 ```python
 pip install alpaca-trade-api
@@ -120,12 +120,14 @@ The members can then determine if they have enough reserves for an emergency fun
   10Y:<br/>
   ![10yDis](images/MC_10year_dist_plot.png)
 
-  - `The summary statistics that you generated from the Monte Carlo simulation:`<br/>
-    30Y:<br/>
-    ![30yDis](images/30y_Stats.PNG)<br/>
-    10y:<br/>
-    ![10yDis](images/10y_Stats.PNG)
-    <br/>
+- `The summary statistics that you generated from the Monte Carlo simulation:`<br/>
+  30Y:<br/>
+  ![30yDis](images/30y_Stats.PNG)<br/>
+  10y:<br/>
+  ![10yDis](images/10y_Stats.PNG)
+  <br/>
+
+Those statistics will help to detemine the optimal allocation mix and investement horizon of the fund holders.
 
 > Getting started<br/>
 
