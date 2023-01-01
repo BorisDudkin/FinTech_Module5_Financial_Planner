@@ -4,7 +4,7 @@
 
 ---
 
-![FinPlanner](/images/Fin_plan.jpg)
+![FinPlanner](/Images/Fin_plan.jpg)
 
 ---
 
@@ -101,8 +101,8 @@ pip install alpaca-trade-api
 Fiancial Planner consists of two financial analysis tools:
 
 1. **A financial planner for emergencies.**<br/>The fund owners (memeber of the union in our example) will be able to use this tool to visualize their current savings:<br/>
-   ![Composition2](/images/Portf_comp.PNG)
-   ![Composition](/images/Composition.PNG)
+   ![Composition2](/Images/Portf_comp.PNG)
+   ![Composition](/Images/Composition.PNG)
 
 The members can then determine if they have enough reserves for an emergency fund by comparing the value of their portfolio to the emergency reserves threshold amount.
 
@@ -110,23 +110,23 @@ The members can then determine if they have enough reserves for an emergency fun
 
 - `Simulation outcomes:`<br/>
   30Y:<br/>
-  ![30ySim](/images/MC_30year_sim_plot.png)<br/>
+  ![30ySim](/Images/MC_30year_sim_plot.png)<br/>
 
   10Y:<br/>
-  ![10ySim](/images/MC_10year_sim_plot.png)
+  ![10ySim](/Images/MC_10year_sim_plot.png)
 
 - `Probability distribution of the Monte Carlo simulation`:<br/>
   30Y:<br/>
-  ![30yDis](/images/MC_30year_dist_plot.png)<br/>
+  ![30yDis](/Images/MC_30year_dist_plot.png)<br/>
 
   10Y:<br/>
-  ![10yDis](/images/MC_10year_dist_plot.png)
+  ![10yDis](/Images/MC_10year_dist_plot.png)
 
 - `The summary statistics that you generated from the Monte Carlo simulation:`<br/>
   30Y:<br/>
-  ![30yDis](/images/30y_Stats.PNG)<br/>
+  ![30yDis](/Images/30y_Stats.PNG)<br/>
   10y:<br/>
-  ![10yDis](/images/10y_Stats.PNG)
+  ![10yDis](/Images/10y_Stats.PNG)
   <br/>
 
 Those statistics will help to detemine the optimal allocation mix and investement horizon of the fund holders.
