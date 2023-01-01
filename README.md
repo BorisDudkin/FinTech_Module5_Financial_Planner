@@ -47,7 +47,7 @@ conda list json
 
 3. Python-dotenv Library is used to interact with APIs. With the python-dotenv library, you can read key-value pairs from an environment file (.env) and add them as environment variables.
 
-4. Alpaca is an API for stock trading. With the Alpaca SDK, you can interact with the Alpaca API. Sign up for Alpaca API Key and Secret Keys at https://app.alpaca.markets/signup
+4. Alpaca is an API for stock trading. With the Alpaca SDK, you can interact with the Alpaca API. Sign up for the Alpaca API Key and Secret Keys at https://app.alpaca.markets/signup
 
 ---
 
@@ -106,17 +106,19 @@ Fiancial Planner consists of two financial analysis tools:
 
 The members can then determine if they have enough reserves for an emergency fund by comparing the value of their portfolio to the emergency reserves threshold amount.
 
-2. **A financial planner for retirement.** <br/>This tool will forecast the performance of members' retirement portfolio in 30 and 10 years and for different asset allocations. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations. <br/> The application users will be presented with:
+2. **A financial planner for retirement.** <br/>This tool will forecast the performance of members' retirement portfolio for different time horizons (in 30 and 10 years in our example) and for different asset allocations. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations. Monte Carlo simulation will calculate the range of possible outcomes based on your asset mix, chosen investment horizon and a number of simulation runs.<br/> The application users will be presented with:
 
 - `Simulation outcomes:`<br/>
   30Y:<br/>
-  ![30ySim](images/MC_30year_sim_plot.png)
+  ![30ySim](images/MC_30year_sim_plot.png)<br/>
+
   10Y:<br/>
   ![10ySim](images/MC_10year_sim_plot.png)
 
 - `Probability distribution of the Monte Carlo simulation`:<br/>
   30Y:<br/>
-  ![30yDis](images/MC_30year_dist_plot.png)
+  ![30yDis](images/MC_30year_dist_plot.png)<br/>
+
   10Y:<br/>
   ![10yDis](images/MC_10year_dist_plot.png)
 
