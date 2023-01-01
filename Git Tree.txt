@@ -1,0 +1,8 @@
+* 	 (HEAD -> main) corrected simulation input and rerun the results. Updated the conclusion and README accordingly
+* 	 (origin/main, origin/HEAD) README Usage section updated
+* 	 Financila planner conclusion added and README updated
+* 	 completed Financial Planner, added simulation images
+* 	 pie chart modified in Financial Planner
+* 	 Part 1 of the financial planner completed
+* 	 financial planner tool initiated, MCForecastTools.py added
+* 	 Initial commit
