@@ -1,4 +1,7 @@
-* 	 (HEAD -> main, origin/main, origin/HEAD) images folder name capital I changed to  low case i
+* 	 (HEAD -> main) conclusion section modified
+* 	 (origin/main, origin/HEAD) folder name for Images changed in the conclusion of the financila planner
+* 	 image folder renamed to Image in all the README and a few financial tool instances
+* 	 images folder name capital I changed to  low case i
 * 	 added git tree - a history of commits
 * 	 corrected simulation input and rerun the results. Updated the conclusion and README accordingly
 * 	 README Usage section updated
